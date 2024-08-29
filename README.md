@@ -29,6 +29,10 @@
 - Careful were you name your background colors. They get tricky with the curves if you're doing it this way.
 - Be cautious where you declare your spacing as well. Had to find the "gap" that was separating the background colors because it was in the `flex-wrapper`
 
+### 2024.08.29
+
+- Completed section two. Remember to look at the desktop designs to set up the html for all screens before adding the flex propeties to the appropriate html tags
+- Struggling with positioning elements and not sure which method is best practice for which situation. Currently undergoing constant trial and error. Will look up solutions to see the different methods.
 
 ### Continued development
 
