@@ -28,7 +28,9 @@ a {
 	color: var(--clr-neutral-100);
 }
 
-.flex-wrapper {
+.flex-card,
+.flex-card-text,
+.flex-footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
@@ -104,6 +106,7 @@ a {
 	width: 100%;
 	background-color: var(--clr-primary);
 	clip-path: ellipse(60% 55% at 50% 0%);
+	position: relative;
 }
 
 .curve-primary {
@@ -147,20 +150,124 @@ a {
 	color: var(--clr-primary);
 }
 
-@media (min-width: 768px) {
-	p,
-	a {
-		font-size: 1.8rem;
-	}
+/* =================== section 2 */
 
+.ss2__img {
+	width: 60%;
+	max-width: 450px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: -6.2rem;
+	z-index: -1;
+	position: relative;
+}
+
+.ss2__h2 {
+	font-size: 3.2rem;
+}
+
+.ss2__wrapper {
+	margin: 1.6rem;
+}
+
+.ss2__text-wrapper {
+	padding: 3.2rem 1.6rem 4.4rem 1.6rem;
+	gap: 1.6rem;
+}
+
+.ss2__p {
+	margin-bottom: 2.4rem;
+}
+
+/* ================= footer  */
+
+.footer {
+	margin-top: 7.4rem;
+}
+
+.social-icons {
+	gap: 3.2rem;
+	margin: 6.4rem;
+}
+
+@media (min-width: 768px) {
 	.hero-title {
 		font-size: 6rem;
 		margin-bottom: 5rem;
 		max-width: 55rem;
 	}
+
+	.hero__img {
+		max-width: 48rem;
+		bottom: -8%;
+	}
+
+	.ss2__h2 {
+		font-size: 4.8rem;
+	}
+
+	.curve {
+		height: 25rem;
+	}
+
+	.header-wrapper {
+		padding: 3.2rem 4rem;
+	}
+
+	.flex-card {
+		flex-direction: row;
+		gap: 3.2rem;
+	}
+	.flex-card-text {
+		align-items: start;
+		text-align: start;
+	}
+
+	.card-wrapper {
+		padding: 8rem 9.8rem 0rem 9.8rem;
+		display: grid;
+		place-items: center;
+	}
+
+	.ss2__wrapper {
+		padding: 6.4rem;
+		margin: 0rem 1.6rem;
+		gap: 1.6rem;
+		max-width: 100vw;
+	}
+
+	.ss2__img {
+		width: 60%;
+		max-width: 450px;
+		left: 0%;
+		transform: translateX(-50%);
+		transform: translatey(-30%);
+		margin-bottom: -21rem;
+		position: absolute;
+		z-index: 1;
+	}
+
+	#index__ss-2 {
+		max-width: 90vw;
+	}
+
+	.ss2__text-wrapper {
+		position: relative;
+		left: 25rem;
+		top: 15rem;
+		padding: 6.4rem;
+		z-index: 2;
+	}
+	.ss2__wrapper {
+	}
 }
 
 @media (min-width: 1440px) {
+	p,
+	a {
+		font-size: 1.8rem;
+	}
+
 	.card__h2 {
 		font-size: 3.2rem;
 	}
