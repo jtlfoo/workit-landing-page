@@ -34,6 +34,14 @@
 - Completed section two. Remember to look at the desktop designs to set up the html for all screens before adding the flex propeties to the appropriate html tags
 - Struggling with positioning elements and not sure which method is best practice for which situation. Currently undergoing constant trial and error. Will look up solutions to see the different methods.
 
+### 2024.08.30
+- Continue work with section 2 and understand the solution to centering the relatively positioned elements whilst keeping the design pattern (9:08)
+- split right with `cmd + \`
+- Completed all the responsiveness and alignments. It was really all about just playing with the numbers until I reached the placements I was happy with (9:57)
+- Taking a break now, will complete the patterned images after.
+-
+
+
 ### Continued development
 
 ### Useful resources
