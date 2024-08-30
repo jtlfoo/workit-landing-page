@@ -57,6 +57,7 @@ a {
 
 .nav-link {
 	color: var(--clr-neutral-100);
+	cursor: pointer;
 }
 
 .nav-link:hover {
@@ -64,6 +65,7 @@ a {
 }
 
 .btn__secondary {
+	cursor: pointer;
 	background-color: var(--clr-secondary);
 	font-weight: 700;
 	padding: 1.2rem 2.4rem;
@@ -298,9 +300,9 @@ a {
 	}
 
 	.bg-3 {
-		left: 65%;
-		bottom: -80%;
-		max-width: 30%;
+		right: 10%;
+		bottom: -28%;
+		max-width: 40%;
 	}
 }
 
@@ -355,8 +357,6 @@ a {
 	}
 
 	.bg-3 {
-		left: 60%;
-		bottom: -65%;
-		max-width: 15%;
+		bottom: -30%;
 	}
 }
