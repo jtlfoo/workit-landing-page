@@ -59,10 +59,23 @@ a {
 	color: var(--clr-neutral-100);
 }
 
+.nav-link:hover {
+	color: var(--clr-secondary);
+}
+
 .btn__secondary {
 	background-color: var(--clr-secondary);
 	font-weight: 700;
 	padding: 1.2rem 2.4rem;
+	border: 2px solid var(--clr-secondary);
+}
+.btn__secondary:hover {
+	background-color: inherit;
+	color: var(--clr-secondary);
+}
+
+.social-link:hover .social-icon path {
+	fill: var(--clr-primary);
 }
 
 /* ================ backgrounds */
@@ -197,7 +210,7 @@ a {
 	margin-top: 7.4rem;
 }
 
-.social-icons {
+.social-icon__wrapper {
 	gap: 3.2rem;
 	margin: 6.4rem;
 }
@@ -342,8 +355,8 @@ a {
 	}
 
 	.bg-3 {
-		left: 55%;
+		left: 60%;
 		bottom: -65%;
-		max-width: 20%;
+		max-width: 15%;
 	}
 }

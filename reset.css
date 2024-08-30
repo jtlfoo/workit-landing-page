@@ -68,7 +68,7 @@ button {
 	margin: 0;
 	font: inherit; /* Inherit font styles from parent */
 	cursor: pointer; /* Keep the pointer cursor */
-
+	display: inline-block;
 	/* Remove any additional default styles your browser might apply */
 	color: inherit;
 	text-decoration: none;
