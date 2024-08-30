@@ -39,7 +39,7 @@
 - split right with `cmd + \`
 - Completed all the responsiveness and alignments. It was really all about just playing with the numbers until I reached the placements I was happy with (9:57)
 - Taking a break now, will complete the patterned images after.
--
+
 
 
 ### Continued development

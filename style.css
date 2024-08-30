@@ -129,6 +129,8 @@ a {
 .card-wrapper {
 	padding: 8rem 1.6rem 0rem 1.6rem;
 	width: 100%;
+	max-width: 1440px;
+	margin: auto;
 }
 
 .card__number {
@@ -150,6 +152,11 @@ a {
 	color: var(--clr-primary);
 }
 
+/* ============= bg-patterns */
+.bg-pattern {
+	display: none;
+}
+
 /* =================== section 2 */
 
 .ss2__img {
@@ -166,8 +173,13 @@ a {
 	font-size: 3.2rem;
 }
 
+#index__ss-2 {
+	padding: 1.6rem;
+}
+
 .ss2__wrapper {
-	margin: 1.6rem;
+	margin-inline: auto;
+	max-width: 1440px;
 }
 
 .ss2__text-wrapper {
@@ -229,9 +241,8 @@ a {
 		place-items: center;
 	}
 
-	.ss2__wrapper {
-		margin: 0rem 4rem;
-		gap: 1.6rem;
+	#index__ss-2 {
+		padding: 4rem;
 	}
 
 	.ss2__img {
@@ -253,6 +264,30 @@ a {
 
 	.footer {
 		padding: 5rem;
+	}
+
+	/* bg-images */
+
+	.bg-pattern {
+		display: inline;
+		position: absolute;
+		z-index: 5;
+	}
+
+	.bg-1 {
+		right: 85%;
+		top: 5%;
+	}
+
+	.bg-2 {
+		left: 95%;
+		top: 20%;
+	}
+
+	.bg-3 {
+		left: 65%;
+		bottom: -80%;
+		max-width: 30%;
 	}
 }
 
@@ -304,5 +339,11 @@ a {
 	.ss2__img,
 	.ss2__text-wrapper {
 		margin-top: -10rem;
+	}
+
+	.bg-3 {
+		left: 55%;
+		bottom: -65%;
+		max-width: 20%;
 	}
 }
