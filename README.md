@@ -38,16 +38,17 @@
 - Continue work with section 2 and understand the solution to centering the relatively positioned elements whilst keeping the design pattern (9:08)
 - split right with `cmd + \`
 - Completed all the responsiveness and alignments. It was really all about just playing with the numbers until I reached the placements I was happy with (9:57)
-- Taking a break now, will complete the patterned images after.
+- Completed the image pattern absolutes. Remember that the positioned absolute elements are relative to the closest ancestor. At first the bg-pattern in the third section changed significantly when moving to a screen with different aspect ratios. (1:05 - 1:30)
 
-
+### 2024.08.31
+- Finished the design yesterday.
+- Just noticed the fonts were in the assets folder, did not need to import from google.
 
 ### Continued development
 
 ### Useful resources
 
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-   [Shape divider](https://www.shapedivider.app/) - I didn't use thi, but this website helps create an svg shape divider can could have been an option for creating the curves
 
 ### Author
 
