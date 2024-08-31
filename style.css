@@ -5,6 +5,7 @@ html {
 h1,
 h2 {
 	font-family: var(--ff-primary);
+	font-weight: 600;
 }
 
 p,
@@ -58,6 +59,7 @@ a {
 .nav-link {
 	color: var(--clr-neutral-100);
 	cursor: pointer;
+	font-weight: 600;
 }
 
 .nav-link:hover {
@@ -290,7 +292,7 @@ a {
 	}
 
 	.bg-1 {
-		right: 85%;
+		right: 80%;
 		top: 5%;
 	}
 
@@ -354,6 +356,13 @@ a {
 	.ss2__img,
 	.ss2__text-wrapper {
 		margin-top: -10rem;
+	}
+	.bg-1 {
+		right: 90%;
+	}
+
+	.bg-2 {
+		left: 95%;
 	}
 
 	.bg-3 {
